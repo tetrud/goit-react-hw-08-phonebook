@@ -1,0 +1,21 @@
+@import 'styles/shared.scss';
+
+.User {
+  display: flex;
+  align-items: center;
+
+  &__description {
+    margin: auto 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: #b57dff;
+    margin-right: 20px;
+  }
+
+  &__button {
+    width: 100px;
+    padding: 5px;
+    font-size: 15px;
+    @extend %button;
+  }
+}
